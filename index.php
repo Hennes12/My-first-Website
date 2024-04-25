@@ -1,5 +1,7 @@
 <?php
 
+echo "Hallo";
+
 $file = "aufrufe.txt";
 
 $counter = file_get_contents('./file') + 1;
