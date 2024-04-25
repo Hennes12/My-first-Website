@@ -1,14 +1,3 @@
-<?php
-
-echo "Hallo";
-
-$file = "aufrufe.txt";
-
-$counter = file_get_contents('./file') + 1;
-file_put_contents('./file', $counter);
-
-?>
-
 <!doctype html>
 <html lang="en">
 
